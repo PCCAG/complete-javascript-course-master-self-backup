@@ -2,35 +2,60 @@
   margin: 0;
   padding: 0;
   box-sizing: inherit;
+  /* 继承 */
 }
 
 html {
   font-size: 62.5%;
   box-sizing: border-box;
+  margin: 2rem;
+  /* border-radius: 4rem; */
 }
 
 body {
-  font-family: sans-serif;
+  
+  border-radius: 0 10rem 0 0; */
+  /* border-radius 4pt;  */
+  font-family:sans-serif;
   color: #333;
   line-height: 1.5;
-  height: 100vh;
+  height: 90%;
   position: relative;
-  display: flex;
+  display: grid;
   align-items: flex-start;
   justify-content: center;
-  background: linear-gradient(to top left, #28b487, #7dd56f);
+  /* width: 80%;
+  margin: 20%;
+  height: 100%; */
+  /* overflow: auto; */
+  /* background: linear-gradient(to top left, #28b487, #7dd56f) ; */
+  background: url(../boki.jpg) no-repeat  scroll;
+  background-position: top center;
+  /* backdrop-filter:blur(20px); */
+  background-size: cover;
+  background-color: rgb(240, 128, 184);
+  box-shadow:10px 5px 5px #b42d2d;
+
 }
 
 .show-modal {
+  /* display: grid; */
   font-size: 2rem;
   font-weight: 600;
   padding: 1.75rem 3.5rem;
   margin: 5rem 2rem;
   border: none;
-  background-color: #fff;
+  background-color: #ea8dbb;
   color: #444;
   border-radius: 10rem;
-  cursor: pointer;
+  text-shadow: #ea8dbb;
+  /* 鼠标指针样式 */
+  /* cursor: pointer; */
+  cursor:url(https://cdn.custom-cursor.com/db/18367/32/anime-spy-x-family-happy-anya-forger-dango-pointer.png),pointer !important;
+}
+.show-modal:hover{
+  background-color: rgb(239, 66, 135);
+  color: aqua;
 }
 
 .close-modal {
@@ -68,7 +93,7 @@ p {
 
   background-color: white;
   padding: 6rem;
-  border-radius: 5px;
+  border-radius: 30px;
   box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
   z-index: 10;
 }
@@ -83,3 +108,6 @@ p {
   backdrop-filter: blur(3px);
   z-index: 5;
 }
+/* .baba{
+  display: none;
+} */
