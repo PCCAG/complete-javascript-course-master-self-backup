@@ -1,7 +1,7 @@
 {
     "cSpell.enabled": false,
-    "http.proxy": "socks5://localhost:10808",
-    "https.proxy": "socks5://localhost:10808",
-    "http.proxySupport": "on"
+    // "http.proxy": "socks5://localhost:10808",
+    // "https.proxy": "socks5://localhost:10808",
+    // "http.proxySupport": "on"
 
 }
