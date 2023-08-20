@@ -1,0 +1,8 @@
+{
+  "h1": "关于类名带有空格",
+  "content1": "specially. when a elemrnt has a class name within space, as son class and father class. A class name can’t have spaces. When you have a space-separated string in your class attribute, you’re always giving your element several classes.",
+  "h2": "键盘事件",
+  "content2": "三种键盘按键类型document.addEventListener('keydown');document.addEventListener('keyup');document.addEventListener('keypress');当按键时，一个包含按键对象会传入到执行函数（回调函数）",
+  "h3": "css技巧",
+  "content3": "all is classpecially. when a elemrnt has a class name within space, as son class and father class.A class name can’t have spaces. When you have a space-separated string in your class attribute, you’re always giving your element several classes.yes, but the only way to call them is .son.father.css可以创建html中不存在的类.当通过对一个元素添加或者去除一个类来达到不同的效果"
+}

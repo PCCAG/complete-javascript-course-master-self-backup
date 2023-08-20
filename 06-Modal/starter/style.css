@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: inherit;
+  box-sizing: border-box;
   /* 继承 */
 }
 
@@ -14,13 +14,14 @@ html {
 
 body {
   
-  border-radius: 0 10rem 0 0; */
+  border-radius: 10rem ;
+  padding: auto;
   /* border-radius 4pt;  */
   font-family:sans-serif;
   color: #333;
   line-height: 1.5;
-  height: 90%;
-  position: relative;
+  height: 100%;
+  position: sticky;
   display: grid;
   align-items: flex-start;
   justify-content: center;
@@ -30,11 +31,12 @@ body {
   /* overflow: auto; */
   /* background: linear-gradient(to top left, #28b487, #7dd56f) ; */
   background: url(../boki.jpg) no-repeat  scroll;
-  background-position: top center;
+  background-position: top;
   /* backdrop-filter:blur(20px); */
   background-size: cover;
+  background-attachment: fixed;
   background-color: rgb(240, 128, 184);
-  box-shadow:10px 5px 5px #b42d2d;
+  /* box-shadow:10px 5px 5px #b42d2d; */
 
 }
 

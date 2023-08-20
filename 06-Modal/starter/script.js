@@ -1,5 +1,6 @@
 'use strict';
-
+//import data from './content.json' assert { type: 'JSON' };
+//console.log(data);
 //all is class
 //specially. when a elemrnt has a class name within space, as son class and father class.
 //
