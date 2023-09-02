@@ -50,7 +50,7 @@ There is also a the [updates-and-fixes](https://github.com/jonasschmedtmann/comp
 
 ### Q9: You mentioned your resources page. Where can I find it?
 
-**A:** It's on my website at <http://codingheroes.io/resources>. You can subscribe for updates 😉
+**A:** It's on my website at [http://codingheroes.io/resources](http://codingheroes.io/resources). You can subscribe for updates 😉
 
 ### Q10: I love your courses and want to get updates on new courses. How?
 

@@ -1,8 +1,35 @@
 {
-    "cSpell.enabled": false,
-    "http.proxy": "socks5://localhost:10808",
-    // "https.proxy": "socks5://localhost:10808",
-    // "http.proxySupport": "on"
-    "editor.lineNumbers": "off"
+  "cSpell.enabled": false,
+  "http.proxy": "socks5://localhost:10808",
+  // "https.proxy": "socks5://localhost:10808",
+  // "http.proxySupport": "on"
+  "editor.lineNumbers": "on"
+  // "background.enabled": false,
+  // "background.fullscreen": {
+  //   "images": ["https://wallpapercave.com/wp/wp5683724.png"], // urls of your images
+  //   "opacity": 0.7, // 0.85 ~ 0.95 recommended
+  //   "size": "center", // also css, `cover` to self-adaption (recommended)，or `contain`、`200px 200px`
+  //   "position": "center", // alias to `background-position`, default `center`
+  //   "interval": 0 // seconds of interval for carousel, default `0` to disabled.
+  // },
+  //"winopacity.opacity": 255
+  // "background.backgroundAlignment": [
+  //   "Center Center",
+  //   "Center Center",
+  //   "Center Center",
+  //   "Center Center"
+  // ],
+  // "background.backgroundSize": ["Cover", "Cover", "Cover", "Cover"],
+  // // "background.windowBackgrounds": [
+  // //   "https://wallpapercave.com/wp/wp5683724.png"
+  // // ],
+  // // "background.sidebarBackgrounds": [
+  // //   "https://wallpapercave.com/wp/wp5683724.png"
+  // // ],
 
+  // "background.panelBackgrounds": ["https://wallpapercave.com/wp/wp5683724.png"],
+  // // "background.editorBackgrounds": [
+  // //   "https://wallpapercave.com/wp/wp5683724.png"
+  // // ],
+  // "background.backgroundAlignmentValue": ["100%", "100%", "100%", "100%"]
 }
